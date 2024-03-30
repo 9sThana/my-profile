@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0 ;
+  box-sizing: border-box;
+
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+
+:root{
+  --primary-color : #2b2d42;
+  --secondary-color : #8d99ae;
+  --sub-color1 : #edf2f4;
+  --sub-color2 : #ef233c;
+  --sub-color3 : #d90429;
+}
+
