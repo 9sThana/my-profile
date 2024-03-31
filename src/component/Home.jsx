@@ -35,7 +35,9 @@ function Home() {
               </a>
             </li>
             <li>
-              <a>Resume</a>
+              <a href="https://github.com/9sThana/my-profile/blob/main/src/assets/resume.pdf">
+                Resume
+              </a>
             </li>
           </ul>
         </div>

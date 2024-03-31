@@ -63,7 +63,7 @@ function Project() {
             <div className="subtags">
               <a
                 className="navigate"
-                href="https://www.figma.com/file/rI1uoclNcyiy89DxH0agLN/CMUGoods-Sys.?type=design&node-id=0%3A1&mode=design&t=gR9uvZ66eAPXnHgF-1"
+                href="https://github.com/9sThana/my-profile"
               >
                 <b>See this on Github</b>
               </a>
