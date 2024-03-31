@@ -43,10 +43,46 @@ function Project() {
             </div>
           </div>
           <div className="profile">
+            <h2 className="tags">Equation Smasher</h2>
+            <div className="subtags">
+              <a>
+                <b>Details : </b> This is 204312 Simulation & Experience reality
+                design in class project (VR/AR).
+              </a>
+            </div>
+            <div className="subtags">
+              <a className="lists">
+                <b>Scope :</b>
+                <ul>
+                  <li>
+                    <a>Design gameplay</a>
+                  </li>
+                  <li>
+                    <a>Create logic with C# script in Unity</a>
+                  </li>
+                </ul>
+              </a>
+            </div>
+            <div className="subtags">
+              <a
+                className="navigate"
+                href="https://www.canva.com/design/DAGBE8EsadY/wzmUNbNn2OHxc-5GF4H0Eg/view?utm_content=DAGBE8EsadY&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+              >
+                <b>See presentation on Canva</b>
+              </a>
+              <a
+                className="navigate"
+                href="https://www.youtube.com/watch?v=DFplYQ6oWTA"
+              >
+                <b>See video on Youtube</b>
+              </a>
+            </div>
+          </div>
+          <div className="profile">
             <h2 className="tags">TH.9 Profile web application</h2>
             <div className="subtags">
               <a>
-                <b>Details : </b> This is web application is show about my
+                <b>Details : </b> This is web application that show about my
                 information, skills and my previous project.
               </a>
             </div>

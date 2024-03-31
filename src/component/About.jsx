@@ -67,7 +67,6 @@ function About() {
               </a>
             </div>
             <div className="subtags">
-              {" "}
               <a>
                 <b>Tools</b> : Figma, Visual Studio Code, Microsoft Office, Unity, DBeaver
               </a>
