@@ -16,7 +16,7 @@ function About() {
             <h2 className="tags">Information</h2>
             <div className="subtags">
               <a>
-                <b>Address</b> : 146 Moo.3 Ban Mae Tuen
+                <b>Address</b> : 146 Moo.3 Mae Tuen village
               </a>
             </div>
             <div className="subtags">
@@ -68,7 +68,8 @@ function About() {
             </div>
             <div className="subtags">
               <a>
-                <b>Tools</b> : Figma, Visual Studio Code, Microsoft Office, Unity, DBeaver
+                <b>Tools</b> : Figma, Visual Studio Code, Microsoft Office,
+                Unity, DBeaver
               </a>
             </div>
           </div>
@@ -76,7 +77,10 @@ function About() {
             <h2 className="tags">Contact</h2>
             <div className="subtags">
               <a>
-                <b>Email</b> : <a>th.suyanan@gmail.com</a>
+                <b>Email</b> :{" "}
+                <a className="link" href="mailto:th.suyanan@gmail.com">
+                  th.suyanan@gmail.com
+                </a>
               </a>
             </div>
             <div className="subtags">
