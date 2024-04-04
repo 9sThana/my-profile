@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/resume.pdf";
 import { Link, Route } from "react-router-dom";
 
 function Home() {
@@ -35,7 +36,7 @@ function Home() {
               </a>
             </li>
             <li>
-              <a href="https://github.com/9sThana/my-profile/blob/main/src/assets/resume.pdf">
+              <a href={resume}>
                 Resume
               </a>
             </li>

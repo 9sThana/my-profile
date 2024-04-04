@@ -1,15 +1,20 @@
 import React from "react";
 import "./Css/content.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
   return (
     <>
       <div className="content">
         <div className="header">
-          <a>
-            <Link to="/">Thanawin Suyanan, Nine</Link>
-          </a>
+          <Link to="/">
+            <div className="back">
+              <FontAwesomeIcon icon={faChevronLeft} className="buttons" />
+            </div>
+          </Link>
+          <a>Thanawin Suyanan, Nine</a>
         </div>
         <div className="body">
           <div className="profile">

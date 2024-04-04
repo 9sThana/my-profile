@@ -1,11 +1,20 @@
 import React from "react";
 import "./Css/content.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function Project() {
   return (
     <>
       <div className="content">
         <div className="header">
+          <Link to="/">
+            <div className="back">
+              <FontAwesomeIcon icon={faChevronLeft} className="buttons" />
+            </div>
+          </Link>
+
           <p>My Previous Project</p>
         </div>
         <div className="body">
