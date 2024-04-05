@@ -46,16 +46,24 @@ function About() {
               <a>
                 <b>High school</b> : TheeraKarn Banhong school
               </a>
+              <a>Math - Science program</a>
+              <a>GPAX : 3.62</a>
             </div>
             <div className="subtags">
               <a>
                 <b>University</b> : Chaing Mai university
               </a>
               <a>Faculty of Science, Computer Science</a>
+              <a>GPAX : 2.82</a>
             </div>
             <div className="subtags">
               <a>
                 <b>Internship</b> : Seagate Techology
+              </a>
+              <a>April, 2023 - September, 2023 as full-stack developer</a>
+              <a>
+                Developed web application to support engineers in Maintenace
+                engineer team
               </a>
             </div>
           </div>
@@ -68,7 +76,7 @@ function About() {
             </div>
             <div className="subtags">
               <a>
-                <b>Programming</b> : Javascript, Python, HTML, SQL
+                <b>Programming</b> :React.Js, Javascript, Python, HTML, SQL
               </a>
             </div>
             <div className="subtags">

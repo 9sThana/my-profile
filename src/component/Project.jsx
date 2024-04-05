@@ -15,7 +15,7 @@ function Project() {
             </div>
           </Link>
 
-          <p>My Previous Project</p>
+          <p>My Previous Projects</p>
         </div>
         <div className="body">
           <div className="profile">
