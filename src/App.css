@@ -7,17 +7,34 @@
 }
 
 .info h1 {
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 800;
-  margin: 1.25rem 0;
+  padding: 0 1rem;
+  color: var(--sub-color2);
+
+  cursor: default;
+}
+
+.info h2 {
+  font-size: 60px;
+  font-weight: 600;
   padding: 0 1rem;
 
   cursor: default;
 }
 
-.info h3 {
-  padding: 0 1.5rem;
+.info h2 u {
+  color: var(--sub-color2);
+}
 
+.info .skill-list {
+  margin: 1rem 0;
+}
+
+.info h3 {
+  font-size: 36px;
+  font-weight: 400;
+  padding: 0 1.5rem;
   cursor: default;
 }
 
@@ -50,6 +67,7 @@
   text-decoration: underline;
 }
 
+
 @media screen and (min-width: 590px) {
   .container {
     justify-content: space-between;
@@ -69,6 +87,11 @@
     font-size: 150px;
     transition: 0.25s;
   }
+
+  .menu li a:hover {
+    color: var(--sub-color2);
+  }
+
 }
 
 @media screen and (max-width: 1330px) {
@@ -90,6 +113,18 @@
   .content {
     padding: 0 1rem;
   }
+
+  .info h1 {
+    font-size: 52px;
+  }
+
+  .info h2 {
+    font-size: 48px;
+  }
+
+  .info h3 {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 710px) {
@@ -104,7 +139,7 @@
   }
 
   .menu li {
-    background-color: #000;
+    background-color: var(--sub-color2);
 
     transition: 0.25s;
     width: 220px;
@@ -115,5 +150,18 @@
   .menu li a {
     color: #fff;
     font-size: 64px;
+  }
+
+
+  .info h1 {
+    font-size: 40px;
+  }
+
+  .info h2 {
+    font-size: 36px;
+  }
+
+  .info h3 {
+    font-size: 20px;
   }
 }

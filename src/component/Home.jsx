@@ -19,9 +19,17 @@ function Home() {
     <>
       <div className="container">
         <div className="info">
-          <h1>Thanawin Suyanan</h1>
-          <h3>Front-end Developer</h3>
-          <h3>UX/UI Designer</h3>
+          <h1>Hi, </h1>
+          <h2>
+            You can call me "<u>Nine</u>
+            ".
+          </h2>
+          <h2>Nice to meet you.</h2>
+          <div className="skill-list">
+            <h3>Frontend Developer</h3>
+            <h3>Full-stack Developer</h3>
+            <h3>UX/UI Designer</h3>
+          </div>
         </div>
         <div className="nav">
           <ul className="menu">
@@ -36,9 +44,7 @@ function Home() {
               </a>
             </li>
             <li>
-              <a href={resume}>
-                Resume
-              </a>
+              <a href={resume}>Resume</a>
             </li>
           </ul>
         </div>

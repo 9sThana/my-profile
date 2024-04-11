@@ -1,5 +1,6 @@
 import React from "react";
 import "./Css/content.css";
+import resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
@@ -14,30 +15,15 @@ function About() {
               <FontAwesomeIcon icon={faChevronLeft} className="buttons" />
             </div>
           </Link>
-          <a>Thanawin Suyanan, Nine</a>
+          <a>
+            All about "<u>Nine</u>"
+          </a>
         </div>
         <div className="body">
           <div className="profile">
-            <h2 className="tags">Information</h2>
+            <h2 className="tags">My name is Thanawin Suyanan, Born in 2001</h2>
             <div className="subtags">
-              <a>
-                <b>Address</b> : 146 Moo.3 Mae Tuen village
-              </a>
-            </div>
-            <div className="subtags">
-              <a>
-                <b>Subdistinct</b> : Mae Tuen
-              </a>
-            </div>
-            <div className="subtags">
-              <a>
-                <b>Distinct</b> : Li
-              </a>
-            </div>
-            <div className="subtags">
-              <a>
-                <b>Province</b> : Lamphun
-              </a>
+              <a></a>
             </div>
           </div>
           <div className="profile">
@@ -46,7 +32,7 @@ function About() {
               <a>
                 <b>High school</b> : TheeraKarn Banhong school
               </a>
-              <a>Math - Science program</a>
+              <a>Mathematics - Science program</a>
               <a>GPAX : 3.62</a>
             </div>
             <div className="subtags">
@@ -71,7 +57,7 @@ function About() {
             <h2 className="tags">Skills</h2>
             <div className="subtags">
               <a>
-                <b>Language</b> : Thai, English
+                <b>Languages</b> : Thai, English
               </a>
             </div>
             <div className="subtags">
@@ -110,6 +96,11 @@ function About() {
             <div className="subtags">
               <a>
                 <b>Tel.</b> : 091-836-3210
+              </a>
+            </div>
+            <div className="subtags">
+              <a className="btn" href={resume}>
+                Get my resume
               </a>
             </div>
           </div>
