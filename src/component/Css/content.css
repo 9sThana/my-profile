@@ -58,6 +58,10 @@
   margin-bottom: 0.3rem;
 }
 
+.subtags .para {
+  max-width: 75%;
+}
+
 .subtags .btn {
   padding: 0.25rem 0.5rem;
   width: fit-content;
@@ -136,7 +140,6 @@
     padding: 2rem;
   }
 
-
   .header a,
   .header p {
     font-size: 48px;
@@ -156,9 +159,8 @@
   }
 
   .card-list .card {
-    min-width: 350px;
+    min-width: 300px;
   }
-
 }
 
 .lists {

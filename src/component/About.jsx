@@ -28,7 +28,19 @@ function About() {
           <div className="profile">
             <h2 className="tags">Introducing</h2>
             <div className="subtags">
-              <a>My name is Thanawin Suyanan, Born in 2001 .... coming soon</a>
+              <a className="para">
+                Hi,
+                <br />
+                My name is Thanawin Suyanan, You can call me Nine. <br />
+                I'm a junior front-end developer. During my internship at
+                Seagate Technology (Thailand), I developed numerous web
+                applications using React.js. I'm passionate about creating
+                beautiful interfaces and user-friendly web designs.
+                <br />
+                <br />
+                In my opinion, a good web application is one that is easy to
+                use.
+              </a>
             </div>
           </div>
           <div className="profile">

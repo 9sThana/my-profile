@@ -26,7 +26,7 @@ function Home() {
           </h2>
           <h2>Nice to meet you.</h2>
           <div className="skill-list">
-            <h3>Frontend Developer</h3>
+            <h3>Front-end Developer</h3>
             <h3>Full-stack Developer</h3>
             <h3>UX/UI Designer</h3>
           </div>
