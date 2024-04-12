@@ -1,9 +1,14 @@
 import React from "react";
 import "./Css/content.css";
-import resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+
+//Import asset section
+import resume from "../assets/resume.pdf";
+import tkblogo from "../assets/tkb.png";
+import cmulogo from "../assets/cmu.png";
+import seagatelogo from "../assets/seagate.png";
 
 function About() {
   return (
@@ -21,55 +26,154 @@ function About() {
         </div>
         <div className="body">
           <div className="profile">
-            <h2 className="tags">My name is Thanawin Suyanan, Born in 2001</h2>
+            <h2 className="tags">Introducing</h2>
             <div className="subtags">
-              <a></a>
+              <a>My name is Thanawin Suyanan, Born in 2001 .... coming soon</a>
             </div>
           </div>
           <div className="profile">
             <h2 className="tags">Education</h2>
-            <div className="subtags">
-              <a>
-                <b>High school</b> : TheeraKarn Banhong school
-              </a>
-              <a>Mathematics - Science program</a>
-              <a>GPAX : 3.62</a>
+            <div className="card-list">
+              <div className="card">
+                <div className="subtags">
+                  <div className="logo">
+                    <img src={tkblogo} />
+                  </div>
+                  <a>
+                    <b>High school</b> : TheeraKarn Banhong school
+                  </a>
+                  <a>Mathematics - Science program</a>
+                  <a>Since 2014 - 2020</a>
+                  <a>GPAX : 3.62</a>
+                </div>
+              </div>
+              <div className="card">
+                <div className="subtags">
+                  <div className="logo">
+                    <img src={cmulogo} />
+                  </div>
+                  <a>
+                    <b>University</b> : Chaing Mai university
+                  </a>
+                  <a>Faculty of Science, Computer Science</a>
+                  <a>Since 2020 - 2024</a>
+                  <a>GPAX : 2.82</a>
+                </div>
+              </div>
             </div>
-            <div className="subtags">
-              <a>
-                <b>University</b> : Chaing Mai university
-              </a>
-              <a>Faculty of Science, Computer Science</a>
-              <a>GPAX : 2.82</a>
-            </div>
-            <div className="subtags">
-              <a>
-                <b>Internship</b> : Seagate Techology
-              </a>
-              <a>April, 2023 - September, 2023 as full-stack developer</a>
-              <a>
-                Developed web application to support engineers in Maintenace
-                engineer team
-              </a>
+          </div>
+          <div className="profile">
+            <h2 className="tags">Work experience</h2>
+            <div className="card-list">
+              <div className="card">
+                <div className="subtags">
+                  <div className="logo">
+                    <img src={seagatelogo} />
+                  </div>
+                  <a>
+                    <b>Internship</b> : Seagate Techology
+                  </a>
+                  <a>As full-stack developer</a>
+                  <a>April, 2023 - September, 2023</a>
+                  <a>
+                    Developed web application to support engineers in Maintenace
+                    engineer team
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="profile">
             <h2 className="tags">Skills</h2>
-            <div className="subtags">
-              <a>
-                <b>Languages</b> : Thai, English
-              </a>
+            <div className="box">
+              <h3>Languages</h3>
+              <div className="card-list">
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>Thai</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>English</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="subtags">
-              <a>
-                <b>Programming</b> :React.Js, Javascript, Python, HTML, SQL
-              </a>
+            <div className="box">
+              <h3>Tech stack</h3>
+              <div className="card-list">
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>React.js</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>Javascript</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>HTML</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>CSS</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>Python</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>Node.js</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>C#</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>MySQL</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="subtags">
-              <a>
-                <b>Tools</b> : Figma, Visual Studio Code, Microsoft Office,
-                Unity, DBeaver
-              </a>
+            <div className="box">
+              <h3>Tools</h3>
+              <div className="card-list">
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>Visual Studio Code</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>Microsoft office</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>DBeaver</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>Figma</a>
+                  </div>
+                </div>
+                <div className="mini-card">
+                  <div className="subtags">
+                    <a>Unity</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="profile">

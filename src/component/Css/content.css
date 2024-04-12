@@ -13,6 +13,10 @@
   text-decoration: none;
 }
 
+.header a u {
+  color: var(--sub-color2);
+}
+
 .header p {
   cursor: default;
   font-size: 64px;
@@ -40,6 +44,7 @@
 
 .tags {
   font-size: 36px;
+  color: var(--sub-color3);
 }
 
 .subtags {
@@ -50,6 +55,7 @@
 
 .subtags a {
   font-size: 24px;
+  margin-bottom: 0.3rem;
 }
 
 .subtags .btn {
@@ -57,7 +63,7 @@
   width: fit-content;
   cursor: pointer;
 
-  transition: 0.8s;
+  transition: 0.3s;
   border: 2px solid #000;
   border-radius: 5px;
 
@@ -67,7 +73,8 @@
 }
 
 .subtags .btn:hover {
-  background-color: #000;
+  background-color: var(--sub-color3);
+  border: 2px solid var(--sub-color3);
   color: #fff;
 }
 
@@ -120,7 +127,7 @@
 }
 
 .navigate:hover {
-  color: var(--sub-color2);
+  color: var(--sub-color3);
 }
 
 .body iframe {
@@ -133,7 +140,7 @@
 }
 
 .link:hover {
-  color: #0000ff;
+  color: var(--sub-color3);
 }
 
 .back {
@@ -154,4 +161,46 @@
   background: var(--sub-color3);
   color: #fff;
   border: 2px solid #fff;
+}
+
+.box h3 {
+  font-size: 25px;
+  margin: 0.5rem 1rem;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-list .card,
+.card-list .mini-card {
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 15px;
+  background-color: var(--sub-color1);
+  box-shadow: #00000029 0px 1px 4px;
+}
+
+.card-list .card {
+  min-width: 450px;
+}
+
+.card-list .mini-card {
+  min-width: 150px;
+  text-align: center;
+}
+
+.card-list .card .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 0.5rem;
+}
+
+.card-list .card img {
+  width: 100px;
+  height: 100px;
 }
