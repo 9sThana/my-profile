@@ -96,12 +96,12 @@ function Project() {
             </div>
           </div>
           <div className="profile">
-            <h2 className="tags">TH.9 Profile web application (2024)</h2>
+            <h2 className="tags">TH.9 Profile(2024)</h2>
             <div className="card-list">
               <div className="card">
                 <div className="subtags">
                   <a>
-                    <b>Details</b> This is web application that show about my
+                    <b>Details</b> This is website that show about my
                     information, skills and my previous project.
                   </a>
                 </div>
@@ -110,7 +110,10 @@ function Project() {
                     <b>Scope</b>
                     <ul>
                       <li>
-                        <a>Create this web application with React.js</a>
+                        <a>Create this website with React.js and CSS</a>
+                      </li>
+                      <li>
+                        <a>Make it responsive</a>
                       </li>
                     </ul>
                   </a>

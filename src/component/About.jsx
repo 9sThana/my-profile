@@ -99,7 +99,7 @@ function About() {
             <h2 className="tags">Skills</h2>
             <div className="box">
               <h3>Languages</h3>
-              <div className="card-list">
+              <div className="mini-card-list">
                 <div className="mini-card">
                   <div className="subtags">
                     <a>Thai</a>
@@ -114,7 +114,7 @@ function About() {
             </div>
             <div className="box">
               <h3>Tech stack</h3>
-              <div className="card-list">
+              <div className="mini-card-list">
                 <div className="mini-card">
                   <div className="subtags">
                     <a>React.js</a>
@@ -159,7 +159,7 @@ function About() {
             </div>
             <div className="box">
               <h3>Tools</h3>
-              <div className="card-list">
+              <div className="mini-card-list">
                 <div className="mini-card">
                   <div className="subtags">
                     <a>Visual Studio Code</a>

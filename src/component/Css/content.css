@@ -59,7 +59,7 @@
 }
 
 .subtags .para {
-  max-width: 75%;
+  max-width: 90%;
 }
 
 .subtags .btn {
@@ -92,14 +92,15 @@
   margin: 0.5rem 1rem;
 }
 
-.card-list {
+.card-list,
+.mini-card-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .card-list .card,
-.card-list .mini-card {
+.mini-card-list .mini-card {
   margin: 1rem;
   padding: 1.5rem;
   border-radius: 15px;
@@ -129,7 +130,7 @@
   height: 100px;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (min-width: 599px) {
   .content {
     padding: 1.5rem 1rem;
   }
@@ -160,6 +161,29 @@
 
   .card-list .card {
     min-width: 300px;
+  }
+
+  .mini-card-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .mini-card-list .mini-card {
+    min-width: 150px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mini-card-list .mini-card .subtags a {
+    font-size: 28px;
+  }
+
+  .subtags .para {
+    max-width: 100%;
   }
 }
 
